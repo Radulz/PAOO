@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Facultate\An4Sem1\PAOO\Lab4\Teme\PAOO\Tema3\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Facultate\An4Sem1\PAOO\Lab4\Teme\PAOO\Tema3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EAE6A0A6-BE40-3153-839B-0510A12D4F03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

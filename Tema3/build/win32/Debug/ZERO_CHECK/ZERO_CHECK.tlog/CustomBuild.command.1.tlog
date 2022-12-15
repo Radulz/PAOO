@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\FACULTATE\AN4SEM1\PAOO\LAB4\TEME\PAOO\TEMA3\BUILD\CMAKEFILES\C1C2F1A98223DDFE55837E9150412E57\GENERATE.STAMP.RULE
+setlocal
+"D:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Documents/Facultate/An4Sem1/PAOO/Lab4/Teme/PAOO/Tema3 -BD:/Documents/Facultate/An4Sem1/PAOO/Lab4/Teme/PAOO/Tema3/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Documents/Facultate/An4Sem1/PAOO/Lab4/Teme/PAOO/Tema3/build/Tema3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
